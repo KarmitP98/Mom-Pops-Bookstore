@@ -12,6 +12,10 @@ import { BookCardComponent } from './book-card/book-card.component';
 import { OrderTotalComponent } from './order-total/order-total.component';
 import { OrderTotalDetailComponent } from './order-total-detail/order-total-detail.component';
 import { AddInfoComponent } from './add-info/add-info.component';
+import { ShoppingCartComponent } from './shopping-cart/shopping-cart.component';
+import { OrderDetailComponent } from './order-detail/order-detail.component';
+import { OrderReviewComponent } from './order-review/order-review.component';
+import { OrderDetailItemComponent } from './order-detail-item/order-detail-item.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +28,11 @@ import { AddInfoComponent } from './add-info/add-info.component';
     BookCardComponent,
     OrderTotalComponent,
     OrderTotalDetailComponent,
-    AddInfoComponent
+    AddInfoComponent,
+    ShoppingCartComponent,
+    OrderDetailComponent,
+    OrderReviewComponent,
+    OrderDetailItemComponent
   ],
   imports: [
     BrowserModule,

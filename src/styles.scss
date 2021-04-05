@@ -74,3 +74,33 @@ fieldset {
     user-select: none;
   }
 }
+
+.button{
+  display: flex;
+  position: relative;
+
+  justify-content: center;
+  align-items: center;
+
+  padding: 0.5em 1em;
+
+  width: fit-content;
+  height: fit-content;
+
+  font-size: 1.1em;
+
+  background: transparent;
+  border: none;
+  border-radius: 5px;
+
+  box-shadow: var(--0-4-16-black);
+
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+.button-primary{
+  background: var(--primary);
+  color: white;
+
+  box-shadow: var(--0-4-16-red);
+}
