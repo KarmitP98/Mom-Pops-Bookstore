@@ -1,4 +1,10 @@
 .review-list{
-  height: 70vh;
-  overflow-y: scroll;
+  display: flex;
+
+  flex-flow: column;
+
+  height: fit-content;
+  width: fit-content;
+
+  gap: 1em;
 }
