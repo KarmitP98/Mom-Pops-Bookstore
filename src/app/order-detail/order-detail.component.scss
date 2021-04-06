@@ -1,0 +1,25 @@
+.body{
+  display: flex;
+  position: relative;
+
+  width: 70vw;
+  height: fit-content;
+
+  flex-flow: column;
+
+  padding: 2em;
+
+}
+
+.title{
+  font-size: 2em;
+  font-weight: 700;
+  margin-bottom: 0.2em;
+}
+
+.subtitle{
+  font-size: 1.2em;
+  font-weight: 700;
+  color: var(--primary);
+  text-decoration: underline;
+}
