@@ -2,7 +2,7 @@
   width: 100%;
   height: fit-content;
 
-  border: 1px solid red;
+  margin: 1em 0;
 }
 
 .order-item{
@@ -33,7 +33,7 @@
   justify-content: space-between;
 }
 .item-title{
-  font-size: 2em;
+  font-size: 1.7em;
   text-decoration: underline;
   font-weight: 700;
 
@@ -89,4 +89,14 @@ button{
 }
 .pvalue{
   font-weight: bold;
+}
+.add-item{
+  color: var(--primary);
+}
+.sub-item{
+  color: var(--success);
+}
+.add-item, .sub-item{
+  font-weight: 700;
+  border-radius: 50px;
 }
