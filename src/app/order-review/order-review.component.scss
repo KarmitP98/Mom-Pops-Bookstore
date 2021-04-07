@@ -1,9 +1,16 @@
 .body{
   position: relative;
+  display: flex;
 
-  width: 50vw;
+  width: 99vw;
   height: fit-content;
 
+  justify-content: center;
+}
+
+.content{
+  width: 50%;
+  margin-right: 2em;
 }
 
 .title{
