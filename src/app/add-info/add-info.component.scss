@@ -1,4 +1,4 @@
-.body{
+.body {
   display: flex;
   position: relative;
 
@@ -12,7 +12,7 @@
 
 }
 
-.input-area{
+.input-area {
   position: relative;
   display: flex;
 
@@ -26,18 +26,18 @@
 
   margin-right: 2.5%;
 
-  border: 2px solid rgba(0,0,0,.5);
+  border: 2px solid rgba(0, 0, 0, .5);
   border-radius: 10px;
 
   padding: 1em;
-  }
+}
 
-fieldset{
+fieldset {
   width: fit-content;
   height: fit-content;
 
   box-shadow: none;
-  border: 1px solid rgba(0,0,0,0.2);
+  border: 1px solid rgba(0, 0, 0, 0.2);
 
   justify-content: space-evenly;
   align-items: flex-start;
@@ -47,12 +47,12 @@ fieldset{
   margin: 0 1em;
 }
 
-.title{
+.title {
   font-size: 1.7em;
   font-weight: 700;
 }
 
-.city, .card-detail{
+.city, .card-detail {
   display: flex;
 
   flex-flow: row;
@@ -63,14 +63,14 @@ fieldset{
   align-items: center;
 }
 
-.card-detail{
+.card-detail {
   width: 100%;
 }
 
-#card_field{
+#card_field {
   width: 50%;
 }
 
-#ad_field{
+#ad_field {
   width: 75%;
 }

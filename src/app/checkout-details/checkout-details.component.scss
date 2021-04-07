@@ -1,4 +1,4 @@
-.body{
+.body {
   display: flex;
   position: relative;
 
@@ -10,13 +10,13 @@
 
   padding: 1.5em;
 
-  border: 2px solid rgba(0,0,0,.5);
+  border: 2px solid rgba(0, 0, 0, .5);
   border-radius: 10px;
 
   margin-bottom: 2%;
 }
 
-.section{
+.section {
   display: flex;
   position: relative;
 
@@ -31,20 +31,22 @@
   flex-grow: 1;
 }
 
-.section-title{
+.section-title {
   font-weight: 700;
 }
 
-.section-body{
+.section-body {
   padding: 0.5em;
   font-size: 0.9em;
 }
-p{
+
+p {
   display: flex;
 
   align-items: center;
 }
-a{
+
+a {
   cursor: pointer;
   color: var(--primary);
 }

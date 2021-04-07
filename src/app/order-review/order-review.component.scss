@@ -1,4 +1,4 @@
-.body{
+.body {
   position: relative;
   display: flex;
 
@@ -8,18 +8,18 @@
   justify-content: center;
 }
 
-.content{
+.content {
   width: 50%;
   margin-right: 2em;
 }
 
-.title{
+.title {
   font-size: 2em;
   font-weight: 700;
   margin-bottom: 0.2em;
 }
 
-.subtitle{
+.subtitle {
   font-size: 1.2em;
   font-weight: 700;
   color: var(--primary);

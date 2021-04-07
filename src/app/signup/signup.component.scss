@@ -1,4 +1,4 @@
-.body{
+.body {
   display: flex;
 
   width: 100vw;
@@ -10,7 +10,8 @@
   background: url("~src/assets/book-background.jpg") no-repeat center;
   background-size: cover;
 }
-.login-card{
+
+.login-card {
   display: flex;
 
   width: fit-content;
@@ -32,35 +33,38 @@
 
 }
 
-.login-header{
+.login-header {
   margin-bottom: 2em;
 }
-.login-title{
+
+.login-title {
   font-size: 1.5em;
   font-weight: 700;
 }
 
-.login-body{
+.login-body {
   width: 30vw;
 }
 
-form{
+form {
   width: 100%;
 }
 
-fieldset{
+fieldset {
   display: flex;
   flex-flow: column;
   align-items: flex-start;
   width: 100%;
 
   box-shadow: none;
-  border: 1px solid rgba(0,0,0,.5);
+  border: 1px solid rgba(0, 0, 0, .5);
 }
-label{
+
+label {
   padding-bottom: 0.25em;
 }
-button{
+
+button {
   border-radius: 10px;
   width: 100%;
 }

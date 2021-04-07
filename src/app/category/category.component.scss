@@ -1,6 +1,6 @@
-.category{
+.category {
   display: flex;
-  position: absolute;
+  position: fixed;
 
   top: 0;
   left: 0;
@@ -16,11 +16,13 @@
 
   height: 100%;
 
-  padding: 5vh 0;
+  padding: 12vh 0;
+
+  z-index: 0;
 
 }
 
-.title{
+.title {
   font-size: 1.5em;
   font-weight: 700;
   text-decoration: underline;
@@ -28,19 +30,22 @@
   margin: 2vh 3vw;
 }
 
-.list-item{
+.list-item {
   display: flex;
   position: relative;
 
   margin: 1vh 3vw;
 
-  label{
-  margin-left: 16px;
+  label {
+    margin-left: 16px;
   }
 
 }
 
-.category-area{
+.category-area {
   margin: 0 1vw;
 }
 
+input {
+  cursor: pointer;
+}

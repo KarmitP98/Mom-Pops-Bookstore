@@ -1,4 +1,4 @@
-.card{
+.card {
   position: relative;
   display: flex;
 
@@ -14,7 +14,8 @@
   border-radius: 10px;
   box-shadow: var(--0-4-16-black);
 }
-.card-title{
+
+.card-title {
   font-size: 1.2em;
   color: var(--darktext);
   background: none;
@@ -22,12 +23,13 @@
   margin-bottom: 0.5em;
 }
 
-.card-subtitle{
+.card-subtitle {
   font-size: 1em;
   font-weight: 500;
   color: var(--headings);
   background: none;
 }
-.card-body button.button{
+
+.card-body button.button {
   width: 100%;
 }

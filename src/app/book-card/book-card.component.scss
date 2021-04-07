@@ -1,4 +1,4 @@
-.card{
+.card {
   display: flex;
   position: relative;
 
@@ -16,12 +16,12 @@
 
   border-radius: 10px;
 
-  margin: 5vh 0;
+  margin: 2em 0;
 
   padding: 1em;
 }
 
-.card-image{
+.card-image {
   display: flex;
 
   justify-content: center;
@@ -30,13 +30,13 @@
   width: 100%;
   height: 65%;
 
-  img{
+  img {
     height: 100%;
     width: auto;
   }
 }
 
-.card-body{
+.card-body {
   display: flex;
 
   flex-flow: column;
@@ -44,22 +44,25 @@
   padding: 1em;
 }
 
-.card-title{
+.card-title {
   font-size: 1.5em;
   font-weight: 700;
   color: var(--darktext);
 }
-.card-subtitle{
+
+.card-subtitle {
   font-size: 1.2em;
   font-weight: 500;
   color: var(--headings);
 }
-.price{
+
+.price {
   font-size: 1.2em;
   font-weight: 900;
   margin-top: 20%;
 }
-.card-action{
+
+.card-action {
   display: flex;
   position: absolute;
 
@@ -75,17 +78,17 @@
   padding: 0 1em 1em 2em;
 }
 
-.card-action > .card-action-list > span.material-icons{
+.card-action > .card-action-list > span.material-icons {
   font-size: 1.5em;
   cursor: pointer;
 }
 
-#bag{
+#bag {
   color: var(--primary);
 }
 
-.book-rating > p{
-    font-size: 1em;
+.book-rating > p {
+  font-size: 1em;
 }
 
 
